@@ -4,6 +4,13 @@ body {
 
 .navbar{
 	
-	padding: 50px;
+	padding: 35px;
+
 
 }
+
+.nav{
+
+	width: 768px;
+}
+
