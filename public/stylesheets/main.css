@@ -1,3 +1,9 @@
 body {
   padding-top: 70px;  /* Move body of page below navbar. */
 }
+
+.navbar{
+	
+	padding: 50px;
+
+}
