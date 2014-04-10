@@ -1,5 +1,5 @@
 body {
-	padding-top: 160px;  /* Move body of page below navbar. */
+	padding-top: 155px;  /* Move body of page below navbar. */
 }
 
 .navbar{
@@ -13,4 +13,9 @@ body {
 
 .navbar-nav > li > a{
 	line-height: 5px;
+}
+div.sidebar > ul > li > a {
+
+color:white;
+
 }

@@ -25,7 +25,6 @@
 	  <header id="header">
 	  	<div class="container-fluid">
 		  <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-		      	<div class="collapse navbar-collapse">
 				  	<div class = "row">
 				  		<div class="col-md-2">
 				  			<img id="logo" alt="bimK" src="@routes.Assets.at("images/logo.png")" >
@@ -54,7 +53,7 @@
 							</div>
 						</div>
 					</div>
-		      	</div>
+
 		  </div>
 	      </div>
 	  </header>
@@ -63,12 +62,13 @@
 	  <div class="container-fluid">
 	  	<div class="row">
 			<div class="sidebar col-md-2">
-				<nav>
-			  			<ul class="nav nav-stacked nav-pills navbar-inverse">
-						<li class><a href="@routes.Application.category("category  1")">Category 1</a></li>
+			  			<ul class="nav nav-stacked navbar-inverse">
+						<li><a href="@routes.Application.category("category 1")">Category 1</a></li>
 					    <li><a href="@routes.Application.category("category 2")">Category 2</a></li>
+					    <li><a href="@routes.Application.category("category 3")">Category 3</a></li>
+					    <li><a href="@routes.Application.category("category 4")">Category 4</a></li>
+					    <li><a href="@routes.Application.category("category 5")">Category 5</a></li>
 		  	    	</ul>
-			  	</nav>
 		    </div>
 	  		<div class=" col-md-3 content">
 				@content
@@ -76,7 +76,7 @@
       	</div>
 	  </div>
   </div>
-
+</div>
 
       <!-- Load Bootstrap JavaScript components. HTMLUnit (used in testing) requires JQuery 1.8.3 or below). -->
       <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
